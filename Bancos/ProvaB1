@@ -1,0 +1,11 @@
+﻿create table pessoa(
+	id serial,
+	primary key (id),
+	nome varchar,
+	mes int,
+	alimentacao float,
+	transporte float,
+	lazer float,
+	moradia float
+)
+
